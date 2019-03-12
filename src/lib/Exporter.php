@@ -316,7 +316,7 @@ class Exporter
 		$this->copyComponentSite();
 
 		$baseName   = substr($this->extension, 4);
-		$sourcePath = "{$this->exportDirectory}/{$this->fileBucket}/{$this->adminFilesTargetPath}/{$baseName}.xml'";
+		$sourcePath = "{$this->exportDirectory}/{$this->fileBucket}/{$this->adminFilesTargetPath}/{$baseName}.xml";
 
 		if (!JFile::exists($sourcePath))
 		{
